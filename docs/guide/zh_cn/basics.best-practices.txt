@@ -3,7 +3,7 @@
 
 尽管几乎每个Web开发者都知道  模型-视图-控制器 (MVC)，但如何在实际的应用开发中恰当地使用 MVC仍然使不少人感到困惑。 MVC 背后的中心思想是 **代码可重用性和关注点分离**。在这一节中，我们讲述一些关于在开发Yii应用时该如何更好地遵循MVC的总体指导思想。
 
-To better explain these guidelines, we assume a Web application consists of several sub-applications, such as
+为了更好的解释这些指导思想，我们假设一个 Web 应用由几个子应用组成，例如：
 
 * front end: a public-facing website for normal end users;
 * back end: a website that exposes administrative functionality for managing the application. This is usually restricted to administrative staff;
